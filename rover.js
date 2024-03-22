@@ -15,6 +15,7 @@ class Rover {
 
     
     
+    
     for (let i = 0; i < message.commands.length; i++) {
        if (message.commands[i].commandType === 'MODE_CHANGE') {
          this.mode = message.commands[i].value;
